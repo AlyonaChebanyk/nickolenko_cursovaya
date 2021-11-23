@@ -4,6 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+numpy = "*"
+claptcha = "*"
+matplotlib = "*"
+opencv-python = "*"
+elapsedtimer = "*"
+fire = "*"
+pandas = "*"
+keras = "*"
+tensorflow = "*"
+pydot = "*"
+graphviz = "*"
 
 [dev-packages]
 
