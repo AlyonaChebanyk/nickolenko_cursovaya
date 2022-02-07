@@ -7,16 +7,19 @@ name = "pypi"
 numpy = "*"
 claptcha = "*"
 matplotlib = "*"
-opencv-python = "*"
+opencv-python = "==3.4.2.16"
 elapsedtimer = "*"
-fire = "*"
-pandas = "*"
-keras = "*"
-tensorflow = "*"
+fire = "==0.3.1"
 pydot = "*"
 graphviz = "*"
+scipy = "*"
+requests = {version = "*", index = "https://pypi.python.org/requests/"}
+tensorflow = "==1.9.0"
+pandas = "*"
+keras = "==2.2.4"
+python-fire = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.6.0"
